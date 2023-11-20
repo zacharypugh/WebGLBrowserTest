@@ -25,6 +25,8 @@
         <div id="unity-build-title">WebGL with Browser Interaction</div>
       </div>
     </div>
+    <div style="border:solid 1px black; width:200px; height:80px; margin:auto; text-align:center" onclick="unityInstance.SendMessage('JavascriptHook', 'TintRed')">RED</div>
+    <div style="border:solid 1px black; width:200px; height:80px; margin:auto; text-align:center" onclick="unityInstance.SendMessage('JavascriptHook', 'TintGreen')">GREEN</div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL with Browser Interaction.loader.js";
